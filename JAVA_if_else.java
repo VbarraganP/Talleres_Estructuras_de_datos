@@ -1,16 +1,11 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
-public class JAVA_if_else {
+import java.util.*;
+
+public class Solution {
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
-        int N = scanner.nextInt();
+    public static void main(final String[] args) {
+        final int N = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
         if (N >= 1 && N <= 100) {
             if (N % 2 != 0) {
